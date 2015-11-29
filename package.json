@@ -1,0 +1,32 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "a react app skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --content-base public/",
+    "build": "webpack && webpack --production",
+    "lint": "eslint --ext .js,.jsx Sources"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbambusek/skeleton.git"
+  },
+  "author": "Petr Bambušek <petr.bambusek@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/pbambusek/skeleton#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "4.1.6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "eslint": "1.10.2",
+    "eslint-plugin-react": "3.10.0",
+    "react": "0.14.3",
+    "react-dom": "0.14.3",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "1.12.9",
+    "webpack-dev-server": "1.14.0"
+  }
+}
